@@ -11,7 +11,7 @@
 ## Explanation about moonlander.zip file
 Julia 1.11.5
 
-It contains a run.jl file that can be ran and it will do everything for you. By default a heightmap100.jl and heightmap500.jl are in there so you should only have to change const dim = 500 to dim = 100 or the opposite. Other spans can be made with the src/matrixgeneration.jl file. This is some more work because it needs manual tuning.
+It contains a run.jl file that can be ran and it will do everything for you. By default a heightmap100.jl and heightmap500.jl are in there so you should only have to change const dim = 500 to dim = 100 or the opposite. Other spans can be made with the src/matrixgeneration.jl file. This is some more work because it needs manual tuning. Furthermore the multiple points can be changed in the src/main.jl function and could eventually be brought to the run.jl file but I was too lazy for that.
 
 ---
 
@@ -81,6 +81,8 @@ The temperature is gradually decreased, reducing the chance of accepting worse s
 Implemented to calculate optimal paths between every pair of checkpoints on a terrain that varies by soil type and elevation. Terrain types included rock, gravel, and dust, with color-coding for visual reference.
 
 This output serves as the basis for cost calculations between landers in the TSP.
+
+![A* Algorithm](figures/Astar)
 
 ---
 
