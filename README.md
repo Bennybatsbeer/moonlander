@@ -95,14 +95,14 @@ Steps followed:
 - An Eulerian tour was computed.
 - Repeated nodes were removed to form a TSP tour.
 
-![node graph](graph_all_pairs100.png)
-![MST graph](graph_mst100.png)
-![Eulerian tour](graph_multigraph100.png)
-![TSP](graph_tsp100.png)
+![node graph](figures/graph_all_pairs100.png)
+![MST graph](figures/graph_mst100.png)
+![Eulerian tour](figures/graph_multigraph100.png)
+![TSP](figures/graph_tsp100.png)
 
 The resulting TSP tour had a total cost of **3478**.
 
-![Solved TSP](terrain_path500.png)
+![Solved TSP](figures/terrain_path500.png)
 
 ---
 
@@ -116,7 +116,7 @@ Results:
 
 A reduction of approximately 1.052%.
 
-![Improvement through Annealing](graph_tsp_simulatedAnnealing100.png)
+![Improvement through Annealing](figures/graph_tsp_simulatedAnnealing100.png)
 
 ---
 
