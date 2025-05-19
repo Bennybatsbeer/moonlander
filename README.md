@@ -8,6 +8,11 @@
 
 ---
 
+## Programming language used
+Julia 1.11.5
+
+---
+
 ## Introduction
 To solve this somewhat fictional illustration, the matter could be seen as a combination of two independent subcases:
 1. Finding the best possible route for the rover to travel from one lunar lander to another (local pathfinding).
@@ -59,9 +64,7 @@ A probabilistic optimization technique inspired by the annealing process in meta
 
 - A new solution is generated.
 - If it's better, it is accepted.
-- If it's worse, it may still be accepted with a probability:
-
-P(accept) = e^(−ΔE / T)
+- If it's worse, it may still be accepted with a probability: P(accept) = e<sup>−ΔE / T</sup>
 
 Where `ΔE` is the increase in cost and `T` is the current temperature.
 
