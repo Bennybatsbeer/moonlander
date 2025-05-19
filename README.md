@@ -82,7 +82,7 @@ Implemented to calculate optimal paths between every pair of checkpoints on a te
 
 This output serves as the basis for cost calculations between landers in the TSP.
 
-![A* Algorithm](figures/Astar)
+![A* Algorithm](figures/Astar.png)
 
 ---
 
